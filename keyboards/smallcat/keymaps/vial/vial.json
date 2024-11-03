@@ -1,7 +1,6 @@
 {
-  "name": "Small Cat",
+  "name": "smallcat",
   "firmwareVersion": 0,
-  "lighting": "none",
   "keycodes": [
     "via/keycodes"
   ],
