@@ -1,7 +1,8 @@
 {
-    "keyboard_name": "Smallcat",
+    "manufacturer": "Matt Petiteau",
+    "keyboard_name": "smallcat",
     "manufacturer": "smallwat3r",
-    "url": "",
+    "url": "https://github.com/smallwat3r/smallcat",
     "maintainer": "smallwat3r",
     "usb": {
         "vid": "0xFEED",
