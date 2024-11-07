@@ -23,3 +23,7 @@
 #    define RGBLIGHT_HUE_STEP 20
 #    define WS2812_DI_PIN GP16
 #endif
+
+#define I2C_DRIVER I2CD1
+#define I2C1_SCL_PIN GP3
+#define I2C1_SDA_PIN GP2
