@@ -10,8 +10,6 @@
 #define VIAL_UNLOCK_COMBO_ROWS { 0, 1 }
 #define VIAL_UNLOCK_COMBO_COLS { 1, 4 }
 
-#define NO_ALT_REPEAT_KEY
-
 /* make use of the mounted WS2812 led from the Waveshare RP2040-zero */
 #ifdef RGBLIGHT_ENABLE
 #    define RGBLIGHT_LED_COUNT 1
@@ -24,6 +22,7 @@
 #    define WS2812_DI_PIN GP16
 #endif
 
+#define MOUSE_EXTENDED_REPORT
 #define I2C_DRIVER I2CD1
 #define I2C1_SCL_PIN GP3
 #define I2C1_SDA_PIN GP2
