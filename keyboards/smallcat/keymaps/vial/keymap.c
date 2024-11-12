@@ -15,17 +15,17 @@
 
     /* light up led in yellow when sticky shift is activated */
     void oneshot_mods_changed_user(uint8_t mods) {
-      if (mods & MOD_MASK_SHIFT) { rgblight_set_layer_state(1, true); }
-      if (!mods) { rgblight_set_layer_state(1, false); }
+        if (mods & MOD_MASK_SHIFT) { rgblight_set_layer_state(1, true); }
+        if (!mods) { rgblight_set_layer_state(1, false); }
     }
 #endif
 
 /* default empty layout */
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-  [0] = LAYOUT(
+    [0] = LAYOUT(
               KC_TRNS, KC_TRNS, KC_TRNS,                           KC_TRNS, KC_TRNS, KC_TRNS,
      KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
               KC_TRNS, KC_TRNS, KC_TRNS,                           KC_TRNS, KC_TRNS, KC_TRNS,
                                     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
-  ),
+    ),
 };
